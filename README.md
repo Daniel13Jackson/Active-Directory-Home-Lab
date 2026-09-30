@@ -41,7 +41,32 @@ The lab uses two virtual machines:
 ## Network Diagram
 
 <img width="817" height="501" alt="DCproject" src="https://github.com/user-attachments/assets/a766dfb9-7ffb-4609-8ddd-e8f435525db2" />
-DC01 contains two network adapters. One provides external connectivity
+
+The Domain Controller contains two network adapters. One provides external connectivity
 through NAT, while the second connects to the isolated internal network.
 
-CLIENT01 communicates with DC01 through the internal network.
+CLIENT01 communicates with DC through the internal network.
+
+## Technologies Used
+
+- Oracle VirtualBox
+- Windows Server
+- Windows client
+- Active Directory Domain Services
+- DNS
+- DHCP
+- NAT
+- Routing
+- PowerShell
+- Windows Command Prompt
+
+## Implementation
+
+### 1. Virtual Machine Configuration
+
+Two virtual machines were created using VirtualBox:
+
+- Domain Controller
+- Client 1
+![Virtual Machines] <img width="956" height="749" alt="Vbox Vms" src="https://github.com/user-attachments/assets/11cd73a0-fee2-4991-b271-3045966b2515" />
+
