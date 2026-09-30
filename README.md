@@ -68,5 +68,6 @@ Two virtual machines were created using VirtualBox:
 
 - Domain Controller
 - Client 1
-![Virtual Machines] <img width="956" height="749" alt="Vbox Vms" src="https://github.com/user-attachments/assets/11cd73a0-fee2-4991-b271-3045966b2515" />
+!<img width="956" height="749" alt="Vbox Vms" src="https://github.com/user-attachments/assets/36eaaaef-0148-4076-b780-39c2470e72aa" />
+
 
