@@ -41,4 +41,7 @@ The lab uses two virtual machines:
 ## Network Diagram
 
 <img width="817" height="501" alt="DCproject" src="https://github.com/user-attachments/assets/a766dfb9-7ffb-4609-8ddd-e8f435525db2" />
+DC01 contains two network adapters. One provides external connectivity
+through NAT, while the second connects to the isolated internal network.
 
+CLIENT01 communicates with DC01 through the internal network.
