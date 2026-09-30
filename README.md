@@ -2,8 +2,6 @@
 ## Overview 
 Windows Active Directory home lab demonstrating AD DS, DNS, DHCP, NAT/routing, PowerShell automation, domain joining, and network troubleshooting.
 
-## Lab Architecture
-<img width="817" height="501" alt="DCproject" src="https://github.com/user-attachments/assets/66f2b0d7-7aa8-43e9-93f9-ee20564329e4" />
 
 ## Project Overview
 
@@ -116,13 +114,15 @@ PowerShell was used to automate the creation of domain user accounts within
 Active Directory. The script was executed during the original lab build, and
 the resulting accounts were verified in Active Directory Users and Computers.
 
+<img width="1408" height="1004" alt="PowerShell" src="https://github.com/user-attachments/assets/2394326f-3efe-42e1-bcfb-66babf33c3dc" />
+
 Script Source & Credit:
 The PowerShell user-creation script was provided by Josh Madakor as part of his Active Directory home lab tutorial. I used the script as part of my own lab implementation and documented the resulting configuration and validation.
 
 PowerShell Script: [Josh Madakor's AD PowerShell Repository] (https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1)
-<img width="1408" height="1004" alt="PowerShell" src="https://github.com/user-attachments/assets/2394326f-3efe-42e1-bcfb-66babf33c3dc" />
 
 ### Result
+
 <img width="874" height="713" alt="AD users" src="https://github.com/user-attachments/assets/d4ab00c8-7db2-4c0d-a3ee-903f45108d01" />
 
 ### 7. Windows Client Configuration
