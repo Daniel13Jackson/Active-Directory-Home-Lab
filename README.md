@@ -36,6 +36,7 @@ PowerShell was also used to automate the creation of domain user accounts.
 The lab uses two virtual machines:
 
 | DC01 | Domain Controller, DNS, DHCP, NAT/Routing | NAT + Internal Network |
+
 | CLIENT01 | Windows domain client | Internal Network |
 
 ### Network Diagram
@@ -78,7 +79,11 @@ DC01 was configured with two network adapters:
 - Internal Network adapter for communication with domain clients
 <img width="518" height="55" alt="DC Network adapters" src="https://github.com/user-attachments/assets/cd10804c-a1ed-4bde-b538-c6c7a0f3c6da" />
 
-### Static IP for the internal Network to connect to
+### Static IP Configuration
+
+DC01 was assigned a static IP address on the internal network.
+This address is used by CLIENT01 as its DNS server and default gateway.
+
 <img width="398" height="449" alt="DC1 Static ip" src="https://github.com/user-attachments/assets/ba643446-5a87-4912-8ed5-c14be24ed47d" />
 
 
@@ -107,7 +112,9 @@ The DHCP scope was configured for the internal 172.16.0.0/24 network.
 
 ### 6. PowerShell User Automation
 
-PowerShell was used to automate the creation of domain user accounts within Active Directory. The script was executed and built for the original lab build and the resulting accounts were verified in Active Directory Users and Computers.
+PowerShell was used to automate the creation of domain user accounts within
+Active Directory. The script was executed during the original lab build, and
+the resulting accounts were verified in Active Directory Users and Computers.
 
 Script Source & Credit:
 The PowerShell user-creation script was provided by Josh Madakor as part of his Active Directory home lab tutorial. I used the script as part of my own lab implementation and documented the resulting configuration and validation.
